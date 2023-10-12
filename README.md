@@ -3,11 +3,13 @@ Atividade da Aula 05: explorando GIT e GitHub
 
 
 Configurações de usuários:
+
     - git config --global user.name <usuario>: define nome do usuário;
     - git config --global user.email <usuario>: define email do usuário;
     - git config --global -l: lista as últimas configurações no terminal.
 
 Comandos:
+
     - git init: inicializa um novo repositório;
     - cd <local>: acessa a pasta raiz do projeto;
     - git clone <repo url>: clona um repositório existente;
@@ -22,6 +24,7 @@ Comandos:
     - git pull: busca e baixa o conteúdo de um repositório remoto para o repositório local.
 
 Possíveis status dos arquivos:
+
     - tracked: o Git está controlando o ciclo de vida deste arquivo;
     - untracked: o arquivo ainda não foi 'rastreado';
     - modified: é o estado onde o arquivo sofreu alterações, ou seja, ele está diferente do último commit;
